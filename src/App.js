@@ -47,6 +47,8 @@ const movies = [
 
 export default function App() {
   return (
+    <>
+    <h1>Listado de películas</h1>
     <div className="movie-list">
       {movies && movies.map(movie => {
         return (
@@ -66,5 +68,6 @@ export default function App() {
         )
       })}
     </div>
+    </>
   );
 }

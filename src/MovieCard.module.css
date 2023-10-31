@@ -13,7 +13,9 @@
     padding: 10px;
 }
 
-.MovieCard h1 {
+
+
+.MovieCard h2 {
     color: rgb(47, 55, 201)
 }
 
@@ -43,4 +45,10 @@
 
 .MovieCard .actors {
     color: rgb(90, 96, 216);
+}
+
+.icon {
+    width: 12px;
+    height: 12px;
+    transform: translateY(50%);
 }
