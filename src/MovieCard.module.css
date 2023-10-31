@@ -1,0 +1,46 @@
+.MovieCard {
+    display: flex;
+    border: 1px solid #999;
+    object-fit: cover;
+}
+
+.MovieCard img {
+    background-color: #0000009f;
+    height: 250px;
+}
+
+.MovieCard .info {
+    padding: 10px;
+}
+
+.MovieCard h1 {
+    color: rgb(47, 55, 201)
+}
+
+.MovieCard .textMuted {
+    color: #444;
+    font-weight: bolder;
+}
+
+.MovieCard .msGreen,
+.MovieCard .msYellow,
+.MovieCard .msRed {
+    padding: 2px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.MovieCard .msGreen {
+    background-color: green;
+}
+
+.MovieCard .msYellow {
+    background-color: yellow;
+}
+.MovieCard .msRed {
+    background-color: red;
+}
+
+.MovieCard .actors {
+    color: rgb(90, 96, 216);
+}
