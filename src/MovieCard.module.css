@@ -1,25 +1,36 @@
 .MovieCard {
     display: flex;
-    border: 1px solid #999;
-    object-fit: cover;
+    border: 1px solid #fff;
+    box-shadow: #999999;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
 }
 
-.MovieCard img {
-    background-color: #0000009f;
+.cardImage {
+    width: 175px;
     height: 250px;
 }
 
-.MovieCard .info {
-    padding: 10px;
+.MovieCard .cardImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-
+.MovieCard .info {
+    width: 350px;
+    font-size: 0.7rem;
+    padding: 10px;
+    
+}
 
 .MovieCard h2 {
+    font-size: 1.2rem;
     color: rgb(47, 55, 201)
 }
 
 .MovieCard .textMuted {
+    font-size: 0.7rem;
     color: #444;
     font-weight: bolder;
 }
@@ -37,18 +48,18 @@
 }
 
 .MovieCard .msYellow {
-    background-color: yellow;
+    background-color: rgb(189, 189, 3);
 }
 .MovieCard .msRed {
     background-color: red;
 }
 
 .MovieCard .actors {
+    font-size: 0.7rem;
     color: rgb(90, 96, 216);
 }
 
 .icon {
-    width: 12px;
-    height: 12px;
-    transform: translateY(50%);
+    color:rgb(189, 189, 3);
+    font-size: 1rem;
 }
