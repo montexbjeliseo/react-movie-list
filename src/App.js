@@ -13,6 +13,7 @@ export default function App() {
       {moviesData && moviesData.map(movie => {
         return (
           <MovieCard
+            key={movie.title}
             poster={movie.poster} 
             title={movie.title}
             releaseDate={movie.releaseDate}
